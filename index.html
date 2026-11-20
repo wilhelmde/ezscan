@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>eZscan Pro - Help</title><meta name="description" content="Help for eZscan Pro: print and scan with network printers and scanners from iPhone and iPad."><link rel="icon" href="./icon.png"><style>
+:root{--bg:#f6f5fb;--card:#fff;--text:#16132e;--muted:#5b5875;--brand:#4b3be8;--signal:#0b8a6a;--line:#e4e1f2}
+@media (prefers-color-scheme:dark){:root{--bg:#0f0d22;--card:#1a1736;--text:#f1effc;--muted:#a9a5c7;--brand:#8e84ff;--signal:#3cf2c2;--line:#2c2850}}
+*{box-sizing:border-box}html,body{overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif}
+a{color:var(--brand)}a:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px 64px}
+header{display:flex;align-items:center;gap:14px;padding:36px 0 8px}
+header img{width:64px;height:64px;border-radius:15px}
+header b{display:block;font-size:22px}header span{color:var(--muted);font-size:15px}
+h1{font-size:34px;line-height:1.2;margin:28px 0 8px}h2{font-size:22px;margin:40px 0 10px}
+.lead{color:var(--muted);font-size:19px;margin:0 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 22px;margin:14px 0}
+code{font:15px ui-monospace,Menlo,monospace;background:var(--line);padding:1px 6px;border-radius:6px}
+table{width:100%;border-collapse:collapse}td{padding:10px 8px;border-top:1px solid var(--line);vertical-align:top}td:first-child{font-weight:600;width:34%}
+footer{color:var(--muted);font-size:14px;margin-top:48px;border-top:1px solid var(--line);padding-top:18px}
+nav a{margin-right:16px}
+</style></head><body><div class="wrap">
+<header><img src="./icon.png" alt=""><div><b>eZscan Pro</b><span>Print and scan for iPhone and iPad</span></div></header>
+<nav><a href="./">Help</a><a href="./privacy/">Privacy policy</a><a href="https://github.com/wilhelmde/ezscan/issues">Contact</a></nav>
+<h1>Help</h1><p class="lead">Print and scan with the printers and scanners on your network - no drivers, no vendor app, no account.</p>
+<h2>Devices it works with</h2><div class="card"><ul>
+<li><b>Printers</b> that speak IPP: AirPrint, IPP Everywhere and Mopria printers. Older laser printers on <b>port 9100</b> (PCL) work too.</li>
+<li><b>Scanners</b> that speak eSCL (AirScan) - most current multifunction printers.</li>
+<li>No scanner at hand? Scan with the <b>camera</b>.</li></ul></div>
+<h2>Adding a printer or scanner</h2><div class="card"><ol>
+<li>Tap <b>Add device</b> on Home. Devices on your Wi-Fi are listed - tap <b>Add</b>.</li>
+<li>On another subnet? Enter its <b>IP address or name</b> (<code>192.168.1.40</code>, <code>printer.office.lan</code>, or <code>host:port</code>).</li>
+<li>Don't know the address? <b>Search another network</b> with a range such as <code>10.1.2.0/24</code> or <code>10.1.2.10-60</code> (up to 1,024 addresses).</li></ol>
+<p>eZscan Pro asks once for <b>Local Network</b> access. If you said no: Settings › Privacy &amp; Security › Local Network › eZscan Pro.</p></div>
+<h2>Scanning</h2><div class="card"><p>Tap <b>Scan</b> on a device. Choose the glass or the feeder (one or both sides), colour, quality and paper size. Reorder or remove pages, then save as <b>PDF</b> or <b>JPEG</b>, share, or print. Pages you haven't saved stay until you save or discard them; if you leave the app first, they go to <b>Photos</b>.</p></div>
+<h2>Printing</h2><div class="card"><p>Tap <b>Print</b> on a device or on Home and choose a document or photo. eZscan Pro sends the format the printer reads best, with copies, colour and two-sided printing, and follows the job until it's printed. The device page shows ink and toner levels.</p></div>
+<h2>Your files</h2><div class="card"><p>Saved scans are in the <b>Documents</b> tab and in the <b>Files</b> app under <i>On My iPhone › eZscan Pro</i>.</p></div>
+<h2>Troubleshooting</h2><div class="card"><table>
+<tr><td>No devices found</td><td>Check the iPhone is on the same Wi-Fi as the printer and Local Network access is on. Guest networks often hide devices - add the printer by its IP address.</td></tr>
+<tr><td>Printer found, scanner not</td><td>The device may not offer eSCL (AirScan). Look for an "AirScan" or "eSCL" setting on its web page.</td></tr>
+<tr><td>Device on another subnet</td><td>Add it by IP address or search the range. Your network must route between the subnets.</td></tr>
+<tr><td>"Not answering"</td><td>The device is off or changed address. Pull down on Home to search again.</td></tr></table></div>
+<h2>Contact</h2><p>Questions or a device that doesn't work? <a href="https://github.com/wilhelmde/ezscan/issues/new">Open a support request</a> and name the printer or scanner model.</p>
+<footer>&copy; 2026 William Shanaei</footer></div></body></html>
